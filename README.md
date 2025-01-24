@@ -9,6 +9,21 @@ Project Aim: netflix app consist of login form of diffferent genre( such as movi
 3) build images for each of genre such as movies, webseries , animations and documentaries.
    
    docker build -t movies:v1 .
+
+   
+
+5) install docker compose and neccessary commmands
+
+![image](https://github.com/user-attachments/assets/e1437103-06e0-4636-ae99-fed5bfa46b47)
+
+
+6) start docker compose, and verify ur containers names as service
+
+   
+
+![image](https://github.com/user-attachments/assets/356e4077-0e3a-4a05-9b07-60b43b7f4860)
+
+
    
  [ u can  try with each of genre during build process.  ]
 
@@ -22,16 +37,22 @@ Project Aim: netflix app consist of login form of diffferent genre( such as movi
 
 
   o/p 
-  1. movies
+  1. movies container service running on 91 port number 
 
   ![image](https://github.com/user-attachments/assets/30f5e91d-51c4-46fe-b991-9c327034c9d8)
 
 
 
 
-2.animations
+2.animations container service running on 92 port number 
 
 ![image](https://github.com/user-attachments/assets/203d76d1-fb0a-46fe-9cc8-5b2483110f10)
+
+
+
+
+
+<< Congrats! succesfully Automatically managed and deployed  multi containers on aws servers >>
 
 
 

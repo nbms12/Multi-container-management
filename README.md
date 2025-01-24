@@ -15,6 +15,34 @@ Project Aim: netflix app consist of login form of diffferent genre( such as movi
 
 5) install docker compose and neccessary commmands
 
+
+Download Docker Compose
+=> sudo curl -L "https://github.com/docker/compose/releases/download/v2.10.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+Check the File. It should indicate that it's a binary file.
+=> file /usr/local/bin/docker-compose
+
+
+Set Executable Permissions
+=> sudo chmod +x /usr/local/bin/docker-compose
+
+
+Verify Installation
+=> docker-compose --version (You will see error here, follow the next commands)
+
+
+ls /usr/local/bin/
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+
+
+Give the permissions to execute the docker compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+
+To check docker-compose version
+docker-compose version
+
+
 ![image](https://github.com/user-attachments/assets/e1437103-06e0-4636-ae99-fed5bfa46b47)
 
 

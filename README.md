@@ -10,6 +10,7 @@ Project Aim: netflix app consist of login form of diffferent genre( such as movi
    
    docker build -t movies:v1 .
 
+    [ u can  try with each of genre during build process.  ]
    
 
 5) install docker compose and neccessary commmands
@@ -25,10 +26,10 @@ Project Aim: netflix app consist of login form of diffferent genre( such as movi
 
 
    
- [ u can  try with each of genre during build process.  ]
+
 
   
-  ![image](https://github.com/user-attachments/assets/2daff7ab-bcf7-40ca-9d16-6c4608c2525f)
+
 
 
 

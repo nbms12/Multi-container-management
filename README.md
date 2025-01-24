@@ -7,4 +7,7 @@ Project Aim: netflix app consist of login form of diffferent genre( such as movi
 1) install docker and verify version of it.
 2) create docker file 
 3) build images for each of genre such as movies, webseries , animations and documentaries.
+        docker build -t movies:v1 .
+  u can  try with each of genre during build process.
+
      

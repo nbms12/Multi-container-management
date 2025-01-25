@@ -32,15 +32,15 @@ Verify Installation
 
 
 ls /usr/local/bin/
+
+
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 
-Give the permissions to execute the docker compose
-sudo chmod +x /usr/local/bin/docker-compose
+Give the permissions to execute the docker compose >> sudo chmod +x /usr/local/bin/docker-compose
 
 
-To check docker-compose version
-docker-compose version
+To check docker-compose version >> docker-compose version
 
 
 ![image](https://github.com/user-attachments/assets/e1437103-06e0-4636-ae99-fed5bfa46b47)
